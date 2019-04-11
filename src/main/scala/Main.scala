@@ -1,3 +1,5 @@
+import shapeless.Generic.Aux
+
 object Main extends App {
   import shapeless.{::, CNil, Coproduct, Generic, HList, HNil, Lazy}
 
